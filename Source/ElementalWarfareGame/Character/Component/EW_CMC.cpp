@@ -2,6 +2,7 @@
 
 
 #include "EW_CMC.h"
+#include "ElementalWarfareGame/Character/EWCharacterBase.h"
 
 
 UEW_CMC::UEW_CMC()
@@ -14,7 +15,7 @@ void UEW_CMC::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	AttributeSetBase = GetOwner()->FindComponentByClass<UEWAttributeSetBase>();
+	AttributeSetBase = Cast<AEWCharacterBase>(GetOwner())->GetAttributeSet();
 }
 
 float UEW_CMC::GetMaxSpeed() const
