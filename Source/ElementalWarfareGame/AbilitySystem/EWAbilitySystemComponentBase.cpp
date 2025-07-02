@@ -16,8 +16,7 @@ void UEWAbilitySystemComponentBase::BeginPlay()
 }
 
 
-void UEWAbilitySystemComponentBase::TickComponent(float DeltaTime, ELevelTick TickType,
-                                                  FActorComponentTickFunction* ThisTickFunction)
+void UEWAbilitySystemComponentBase::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 }
