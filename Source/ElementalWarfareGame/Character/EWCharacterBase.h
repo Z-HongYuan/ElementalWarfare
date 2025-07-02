@@ -9,6 +9,10 @@
 #include "ElementalWarfareGame/AbilitySystem/EWAbilitySystemComponentBase.h"
 #include "EWCharacterBase.generated.h"
 
+/*
+ * Character基类
+ * 带有ASC指针,需要再子类中实例化
+ */
 UCLASS()
 class ELEMENTALWARFAREGAME_API AEWCharacterBase : public ACharacter, public IAbilitySystemInterface
 {

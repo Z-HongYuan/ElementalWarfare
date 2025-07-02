@@ -6,7 +6,11 @@
 #include "AbilitySystemComponent.h"
 #include "EWAbilitySystemComponentBase.generated.h"
 
-
+/*
+ * 自定义的ASC基类
+ * 拥有GiveAbilityWithTag()
+ * 在Input调用的输入函数
+ */
 UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class ELEMENTALWARFAREGAME_API UEWAbilitySystemComponentBase : public UAbilitySystemComponent
 {

@@ -7,7 +7,8 @@
 #include "EWGameplayAbilityBase.generated.h"
 
 /**
- * 
+ * 技能基类
+ * 带有InputTag
  */
 UCLASS()
 class ELEMENTALWARFAREGAME_API UEWGameplayAbilityBase : public UGameplayAbility
