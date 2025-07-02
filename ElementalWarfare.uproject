@@ -103,5 +103,9 @@
 			"Name": "ModelViewViewModel",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"Windows",
+		"Android"
 	]
 }
